@@ -12,8 +12,9 @@ body{
     background-color: #4AA3A3;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-family: 'Russo One', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     padding: 8px;
     border-bottom: 1px solid #1D2F2F;
 }
@@ -23,11 +24,16 @@ body{
     border: 1px solid #1D2F2F;;
     display: block;
     width: 600px;
-    margin: 15px 0px;
+    margin: 10px;
     -webkit-box-shadow: 0px 0px 16px 3px rgba(82,82,82,1);
     -moz-box-shadow: 0px 0px 16px 3px rgba(82,82,82,1);
     box-shadow: 0px 0px 16px 3px rgba(82,82,82,1);
     background-color: #C0D7D8;
+    display: flex;    
+    flex-direction: column;
+}
+#editorWrap{
+    height: 250px;
 }
 #previewWrap{
     width: 800px;
@@ -35,7 +41,8 @@ body{
 
 #editor{
     background-color: #C0D7D8;
-    font-family: monospace;        
+    font-family: monospace;
+    flex-grow: 1;   
 }
 #editor:focus{
     border-color: #cccccc;
@@ -47,4 +54,20 @@ body{
     min-height: 200px;
     height: fit-content;
     padding: 10px;
+}
+.btn-maximize{
+    color: black;
+    
+}
+
+.maximized{
+    position: absolute;
+    top: 0;
+    min-width: 92%;
+    min-height: 98%;
+}
+
+.hide{
+    display: none;
+    visibility: hidden;    
 }

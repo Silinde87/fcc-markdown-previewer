@@ -22,17 +22,19 @@
         <script type="text/javascript" src="script.js" defer></script>
     </head>
     <body>
+        <!--<div id="editorWrap" class="maximized">-->
         <div id="editorWrap">
             <div id="toolbar">
                 <i class="fas fa-code"> Editor</i> 
-                <i class="fa fa-arrows-alt"></i>
+                <a href="#" class="btn-maximize"><i class="fa fa-arrows-alt"></i></a>
             </div>
             <textarea class="form-control" id="editor" rows="10" oninput=parseIt()></textarea>
         </div>
+        <!--<div id="previewWrap" class="hide">-->
         <div id="previewWrap">
             <div id="toolbar">
                 <i class="fas fa-code"> Previewer</i> 
-                <i class="fa fa-arrows-alt"></i>
+                <a href="#" class="btn-maximize"><i class="fa fa-arrows-alt"></i></a>
             </div>
             <div id="preview"></div>
         </div>
