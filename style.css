@@ -74,8 +74,8 @@ body{
     position: absolute;
     top: 0;
     min-width: 92%;
-    /*Check this*/
     height: 97%;
+    overflow-y: scroll;
 }
 
 .hide{
