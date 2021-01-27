@@ -9,6 +9,9 @@ function parseIt(){
     console.log(editor);
     document.getElementById('preview').innerHTML = 
     marked(editor);
+    marked.setOptions({
+        breaks: true,
+    })
 }
 
 $(".btn-maximize").click(function() {
