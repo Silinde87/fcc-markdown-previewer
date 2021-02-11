@@ -2,4 +2,4 @@
 
 [Live Demo](https://silinde87.github.io/fcc-markdown-previewer/)
 
-![image](https://github.com/Silinde87/fcc-markdown-previewer/blob/main/images/screenshot.png?raw=true)
+![image](https://github.com/Silinde87/repo-media/blob/main/images/screen-markdown2.JPG?raw=true)
